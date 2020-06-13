@@ -111,6 +111,7 @@ ul,
 dl {
   margin-top: 0;
   margin-bottom: 1rem;
+  margin-left: 2rem;
 }
 
 ol ol,
@@ -445,11 +446,11 @@ mark,
 
 .list-inline {
   padding-left: 0;
-  list-style: none;
+
 }
 
 .list-inline-item {
-  display: inline-block;
+
 }
 .list-inline-item:not(:last-child) {
   margin-right: 0.5rem;
@@ -6848,6 +6849,7 @@ button.bg-dark:focus {
 @media (min-width: 768px) {
   .flex-md-row {
     flex-direction: row !important;
+    margin-bottom: 3rem !important;
   }
 
   .flex-md-column {
@@ -10104,7 +10106,8 @@ p.lead {
 }
 
 .dev-icons {
-  font-size: 3rem;
+  font-size: 1rem;
+  
 }
 
 section.resume-section {
